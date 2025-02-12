@@ -1127,3 +1127,40 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2025.02.12-19.58.24:517][322]RenderDocPlugin: plugin has been unloaded.
 [2025.02.12-19.58.24:522][322]LogPakFile: Destroying PakPlatformFile
 [2025.02.12-19.58.24:740][322]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.02.12-20.04.42:798][322]LogModuleManager: Warning: GetModule racing against IsReady: GitSourceControl
+[2025.02.12-20.04.42:947][322]LogWindows: Error: appError called: Assertion failed: Module [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp] [Line: 423] 
+GitSourceControl
+
+[2025.02.12-20.04.42:947][322]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2025.02.12-20.04.45:015][322]LogThreadingWindows: Error: Runnable thread Foreground Worker #1 crashed.
+[2025.02.12-20.04.45:015][322]LogWindows: Error: === Critical error: ===
+[2025.02.12-20.04.45:015][322]LogWindows: Error: 
+[2025.02.12-20.04.45:015][322]LogWindows: Error: Assertion failed: Module [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp] [Line: 423] 
+[2025.02.12-20.04.45:015][322]LogWindows: Error: GitSourceControl
+[2025.02.12-20.04.45:015][322]LogWindows: Error: 
+[2025.02.12-20.04.45:015][322]LogWindows: Error: 
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4ecfd0da UnrealEditor-Core.dll!FModuleManager::LoadModuleChecked() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Modules\ModuleManager.cpp:423]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635af288e UnrealEditor-GitSourceControl.dll!FGitLockedFilesCache::OnFileLockChanged() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlUtils.cpp:119]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635b02c2c UnrealEditor-GitSourceControl.dll!FGitLockedFilesCache::SetLockedFiles() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlUtils.cpp:96]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635ae3b1f UnrealEditor-GitSourceControl.dll!GitSourceControlUtils::GetAllLocks() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlUtils.cpp:1547]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635af4302 UnrealEditor-GitSourceControl.dll!GitSourceControlUtils::ParseFileStatusResult() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlUtils.cpp:1329]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635af58e7 UnrealEditor-GitSourceControl.dll!GitSourceControlUtils::ParseStatusResults() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlUtils.cpp:1409]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635b01c9f UnrealEditor-GitSourceControl.dll!GitSourceControlUtils::RunUpdateStatus() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlUtils.cpp:1707]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635ac09c7 UnrealEditor-GitSourceControl.dll!``FGitSourceControlProvider::CheckRepositoryStatus'::`2'::<lambda_1>::operator()'::`2'::<lambda_1>::operator()() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlProvider.cpp:155]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x000001d635ac0be9 UnrealEditor-GitSourceControl.dll!`FGitSourceControlProvider::CheckRepositoryStatus'::`2'::<lambda_1>::operator()() [E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Plugins\UEGitPlugin-3.16\Source\GitSourceControl\Private\GitSourceControlProvider.cpp:161]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e890c26 UnrealEditor-Core.dll!TGraphTask<FAsyncGraphTask>::ExecuteTask() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Async\TaskGraphInterfaces.h:1235]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e87b7bd UnrealEditor-Core.dll!`LowLevelTasks::FTask::Init<`FTaskGraphCompatibilityImplementation::QueueTask'::`5'::<lambda_1> >'::`13'::<lambda_1>::operator()() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Async\Fundamental\Task.h:499]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e884c83 UnrealEditor-Core.dll!LowLevelTasks::TTaskDelegate<LowLevelTasks::FTask * __cdecl(bool),48>::TTaskDelegateImpl<`LowLevelTasks::FTask::Init<`FTaskGraphCompatibilityImplementation::QueueTask'::`5'::<lambda_1> >'::`13'::<lambda_1>,0>::CallAndMove() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Async\Fundamental\TaskDelegate.h:171]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e8924c5 UnrealEditor-Core.dll!LowLevelTasks::FTask::ExecuteTask() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Async\Fundamental\Task.h:627]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e8921ff UnrealEditor-Core.dll!LowLevelTasks::FScheduler::ExecuteTask() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Async\Fundamental\Scheduler.cpp:155]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e8ba155 UnrealEditor-Core.dll!LowLevelTasks::FScheduler::WorkerMain() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Async\Fundamental\Scheduler.cpp:397]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4e8823d0 UnrealEditor-Core.dll!UE::Core::Private::Function::TFunctionRefCaller<`LowLevelTasks::FScheduler::CreateWorker'::`2'::<lambda_1>,void __cdecl(void)>::Call() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Public\Templates\Function.h:406]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4ea87c93 UnrealEditor-Core.dll!FThreadImpl::Run() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\HAL\Thread.cpp:69]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4eeec93d UnrealEditor-Core.dll!FRunnableThreadWin::Run() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsRunnableThread.cpp:149]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffa4eee02b7 UnrealEditor-Core.dll!FRunnableThreadWin::GuardedRun() [D:\build\++UE5\Sync\Engine\Source\Runtime\Core\Private\Windows\WindowsRunnableThread.cpp:79]
+[2025.02.12-20.04.45:015][322]LogWindows: Error: [Callstack] 0x00007ffbf9b2259d KERNEL32.DLL!UnknownFunction []
+[2025.02.12-20.04.45:015][322]LogWindows: Error: 
+[2025.02.12-20.04.45:015][322]LogWindows: Error: Crash in runnable thread Foreground Worker #1
+[2025.02.12-20.04.45:032][322]LogWindows: FPlatformMisc::RequestExit(1, FRunnableThreadWin::GuardedRun.ExceptionHandler)
+[2025.02.12-20.04.45:032][322]LogWindows: FPlatformMisc::RequestExitWithStatus(1, 3, FRunnableThreadWin::GuardedRun.ExceptionHandler)
+[2025.02.12-20.04.45:032][322]LogCore: Engine exit requested (reason: Win RequestExit; note: exit was already requested)
