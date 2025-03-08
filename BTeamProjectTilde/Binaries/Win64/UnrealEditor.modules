@@ -2,6 +2,10 @@
 	"BuildId": "33043543",
 	"Modules": 
 	{
+<<<<<<< HEAD
+		"BTeamProjectTilde": "UnrealEditor-BTeamProjectTilde-7027.dll"
+=======
 		"BTeamProjectTilde": "UnrealEditor-BTeamProjectTilde-1934.dll"
+>>>>>>> Camera-Gamemode
 	}
 }

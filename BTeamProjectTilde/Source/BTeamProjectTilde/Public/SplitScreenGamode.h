@@ -11,6 +11,8 @@ class UScreenManager;
 class UCamWidget;
 class UContainerWidget;
 class UWidget;
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FLastPuzzleIsDone); // Delegate To for Last puzzle of level is done
 /**
  *
  */
@@ -58,11 +60,29 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
 	void SwitchBackCamera(int playerId);
 
+	UPROPERTY()
+	FLastPuzzleIsDone LastPuzzleDone;
+
 private:
 
 	UFUNCTION()
 	int GetAssignedViewport(int PlayerID);
 
-	UFUNCTION()
+	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
 	int GetCameraViewport(int PlayerID);
+	
+
+	//Andy Puzzle logic
+	UPROPERTY()
+	int puzzlesAchieved = 0;
+
+	UPROPERTY()
+	int totalNumberOfPuzzles = 0;
+
+	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
+	void RestartLevel(); // Self-Explanitory
+
+	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
+	void UpdatePuzzlesAchieved();
+
 };

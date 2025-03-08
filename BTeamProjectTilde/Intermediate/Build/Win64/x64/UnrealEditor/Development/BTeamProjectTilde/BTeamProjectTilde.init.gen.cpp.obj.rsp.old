@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT\BTeamProjectTilde.init.gen.cpp"
+/FI"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
+/Yu"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
+/sourceDependencies "C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.dep.json"
+@"C:\Users\Administrator\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
+=======
 "C:\Users\kevin\Documents\Notes Semester 4\GAME PRODUCTON REPO\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT\BTeamProjectTilde.init.gen.cpp"
 /FI"C:\Users\kevin\Documents\Notes Semester 4\GAME PRODUCTON REPO\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
 /FI"C:\Users\kevin\Documents\Notes Semester 4\GAME PRODUCTON REPO\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
@@ -6,6 +16,7 @@
 /Fo"C:\Users\kevin\Documents\Notes Semester 4\GAME PRODUCTON REPO\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
 /sourceDependencies "C:\Users\kevin\Documents\Notes Semester 4\GAME PRODUCTON REPO\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.dep.json"
 @"C:\Users\kevin\Documents\Notes Semester 4\GAME PRODUCTON REPO\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
+>>>>>>> Camera-Gamemode
 /Zc:inline
 /nologo
 /Oi

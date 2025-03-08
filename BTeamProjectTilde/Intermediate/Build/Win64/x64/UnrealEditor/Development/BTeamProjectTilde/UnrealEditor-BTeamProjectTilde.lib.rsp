@@ -6,6 +6,19 @@
 /NAME:"UnrealEditor-BTeamProjectTilde.dll"
 /IGNORE:4221
 /NODEFAULTLIB
+<<<<<<< HEAD
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\FirstLevelGameMode.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\FirstLevelGameMode.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Default.rc2.res"
+/OUT:"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\UnrealEditor-BTeamProjectTilde.lib"
+=======
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
@@ -25,3 +38,4 @@
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\SplitScreenGamode.cpp.obj"
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Default.rc2.res"
 /OUT:"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\UnrealEditor-BTeamProjectTilde.lib"
+>>>>>>> Camera-Gamemode

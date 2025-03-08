@@ -35,6 +35,21 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
+<<<<<<< HEAD
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\FirstLevelGameMode.gen.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\FirstLevelGameMode.cpp.obj"
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Default.rc2.res"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
+=======
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
@@ -57,6 +72,7 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UMG\UnrealEditor-UMG.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+>>>>>>> Camera-Gamemode
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\InputCore\UnrealEditor-InputCore.lib"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
 "delayimp.lib"
@@ -84,7 +100,13 @@
 "synchronization.lib"
 "dwmapi.lib"
 "imm32.lib"
+<<<<<<< HEAD
+/OUT:"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Binaries\Win64\UnrealEditor-BTeamProjectTilde.dll"
+/IMPLIB:"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\UnrealEditor-BTeamProjectTilde.sup.lib"
+/PDB:"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Binaries\Win64\UnrealEditor-BTeamProjectTilde.pdb"
+=======
 /OUT:"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Binaries\Win64\UnrealEditor-BTeamProjectTilde.dll"
 /IMPLIB:"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\UnrealEditor-BTeamProjectTilde.sup.lib"
 /PDB:"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Binaries\Win64\UnrealEditor-BTeamProjectTilde.pdb"
+>>>>>>> Camera-Gamemode
 /ignore:4078

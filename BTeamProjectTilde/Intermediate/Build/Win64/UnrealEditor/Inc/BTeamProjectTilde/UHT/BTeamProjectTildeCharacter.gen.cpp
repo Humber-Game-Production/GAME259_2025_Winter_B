@@ -12,6 +12,8 @@ void EmptyLinkFunctionForGeneratedCodeBTeamProjectTildeCharacter() {}
 // Begin Cross Module References
 BTEAMPROJECTTILDE_API UClass* Z_Construct_UClass_ABTeamProjectTildeCharacter();
 BTEAMPROJECTTILDE_API UClass* Z_Construct_UClass_ABTeamProjectTildeCharacter_NoRegister();
+BTEAMPROJECTTILDE_API UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature();
+BTEAMPROJECTTILDE_API UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature();
 ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -19,6 +21,64 @@ ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
 UPackage* Z_Construct_UPackage__Script_BTeamProjectTilde();
 // End Cross Module References
+
+// Begin Delegate FRestartLevel
+struct Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "BTeamProjectTildeCharacter.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_BTeamProjectTilde, nullptr, "RestartLevel__DelegateSignature", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FRestartLevel_DelegateWrapper(const FMulticastScriptDelegate& RestartLevel)
+{
+	RestartLevel.ProcessMulticastDelegate<UObject>(NULL);
+}
+// End Delegate FRestartLevel
+
+// Begin Delegate FOnPuzzleFinished
+struct Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Delegate To Restart\n" },
+#endif
+		{ "ModuleRelativePath", "BTeamProjectTildeCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Delegate To Restart" },
+#endif
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_BTeamProjectTilde, nullptr, "OnPuzzleFinished__DelegateSignature", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FOnPuzzleFinished_DelegateWrapper(const FMulticastScriptDelegate& OnPuzzleFinished)
+{
+	OnPuzzleFinished.ProcessMulticastDelegate<UObject>(NULL);
+}
+// End Delegate FOnPuzzleFinished
 
 // Begin Class ABTeamProjectTildeCharacter
 void ABTeamProjectTildeCharacter::StaticRegisterNativesABTeamProjectTildeCharacter()
@@ -105,6 +165,18 @@ struct Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics
 		{ "ToolTip", "Look Input Action" },
 #endif
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_RestartLevel_MetaData[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "// Sends Delegate To GameMode To Update Puzzles Achieved Variable in GameMode\n" },
+#endif
+		{ "ModuleRelativePath", "BTeamProjectTildeCharacter.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Sends Delegate To GameMode To Update Puzzles Achieved Variable in GameMode" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_OnPuzzleFinished_MetaData[] = {
+		{ "ModuleRelativePath", "BTeamProjectTildeCharacter.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
@@ -112,6 +184,8 @@ struct Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_JumpAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_MoveAction;
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_LookAction;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_RestartLevel;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_OnPuzzleFinished;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -125,6 +199,8 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABTeamProjectT
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_JumpAction = { "JumpAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABTeamProjectTildeCharacter, JumpAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_JumpAction_MetaData), NewProp_JumpAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_MoveAction = { "MoveAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABTeamProjectTildeCharacter, MoveAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_MoveAction_MetaData), NewProp_MoveAction_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_LookAction = { "LookAction", nullptr, (EPropertyFlags)0x0040000000000015, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABTeamProjectTildeCharacter, LookAction), Z_Construct_UClass_UInputAction_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LookAction_MetaData), NewProp_LookAction_MetaData) };
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_RestartLevel = { "RestartLevel", nullptr, (EPropertyFlags)0x0010000000080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABTeamProjectTildeCharacter, RestartLevel), Z_Construct_UDelegateFunction_BTeamProjectTilde_RestartLevel__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_RestartLevel_MetaData), NewProp_RestartLevel_MetaData) }; // 3319209357
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_OnPuzzleFinished = { "OnPuzzleFinished", nullptr, (EPropertyFlags)0x0010000000080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ABTeamProjectTildeCharacter, OnPuzzleFinished), Z_Construct_UDelegateFunction_BTeamProjectTilde_OnPuzzleFinished__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_OnPuzzleFinished_MetaData), NewProp_OnPuzzleFinished_MetaData) }; // 495116572
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_CameraBoom,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_FollowCamera,
@@ -132,6 +208,8 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABTeamPro
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_JumpAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_MoveAction,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_LookAction,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_RestartLevel,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::NewProp_OnPuzzleFinished,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ABTeamProjectTildeCharacter_Statics::DependentSingletons[])() = {
@@ -171,14 +249,23 @@ ABTeamProjectTildeCharacter::~ABTeamProjectTildeCharacter() {}
 // End Class ABTeamProjectTildeCharacter
 
 // Begin Registration
+<<<<<<< HEAD
+struct Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_Statics
+=======
 struct Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_Statics
+>>>>>>> Camera-Gamemode
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABTeamProjectTildeCharacter, ABTeamProjectTildeCharacter::StaticClass, TEXT("ABTeamProjectTildeCharacter"), &Z_Registration_Info_UClass_ABTeamProjectTildeCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABTeamProjectTildeCharacter), 592005421U) },
+		{ Z_Construct_UClass_ABTeamProjectTildeCharacter, ABTeamProjectTildeCharacter::StaticClass, TEXT("ABTeamProjectTildeCharacter"), &Z_Registration_Info_UClass_ABTeamProjectTildeCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABTeamProjectTildeCharacter), 150390796U) },
 	};
 };
+<<<<<<< HEAD
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_290909184(TEXT("/Script/BTeamProjectTilde"),
+	Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_Statics::ClassInfo),
+=======
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_1081714385(TEXT("/Script/BTeamProjectTilde"),
 	Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeCharacter_h_Statics::ClassInfo),
+>>>>>>> Camera-Gamemode
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

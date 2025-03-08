@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT\BTeamProjectTildeCharacter.gen.cpp"
+/FI"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
+/Yu"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
+/sourceDependencies "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.dep.json"
+@"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
+=======
 "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT\BTeamProjectTildeCharacter.gen.cpp"
 /FI"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
 /FI"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
@@ -6,6 +16,7 @@
 /Fo"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
 /sourceDependencies "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.dep.json"
 @"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
+>>>>>>> Camera-Gamemode
 /Zc:inline
 /nologo
 /Oi

@@ -54,6 +54,7 @@ ABTeamProjectTildeCharacter::ABTeamProjectTildeCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
+
 void ABTeamProjectTildeCharacter::BeginPlay()
 {
 	// Call the base class  
@@ -127,4 +128,14 @@ void ABTeamProjectTildeCharacter::Look(const FInputActionValue& Value)
 		AddControllerYawInput(LookAxisVector.X);
 		AddControllerPitchInput(LookAxisVector.Y);
 	}
+}
+
+void ABTeamProjectTildeCharacter::RestartLevelDelegate()
+{
+	RestartLevel.Broadcast();
+}
+
+void ABTeamProjectTildeCharacter::PuzzleFinishedDelegate()
+{
+	OnPuzzleFinished.Broadcast();
 }
