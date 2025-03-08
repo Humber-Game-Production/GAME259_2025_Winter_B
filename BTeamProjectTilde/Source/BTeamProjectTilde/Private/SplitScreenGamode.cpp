@@ -6,6 +6,7 @@
 #include "BTeamProjectTilde/Public/ContainerWidget.h"
 #include "BTeamProjectTilde/Public/CamWidget.h"
 #include "BTeamProjectTilde/Public/ECMode.h"
+#include "Kismet/GameplayStatics.h"
 
 void ASplitScreenGamode::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
@@ -92,4 +93,24 @@ int ASplitScreenGamode::GetCameraViewport(int PlayerID)
         break;
     }
     return 0;
+}
+
+void ASplitScreenGamode::RestartLevel()
+{
+    UWorld* World = GetWorld();
+    if (World)
+    {
+        FName CurrentLevel = *UGameplayStatics::GetCurrentLevelName(this);
+        UGameplayStatics::OpenLevel(World, CurrentLevel);
+    }
+}
+
+void ASplitScreenGamode::UpdatePuzzlesAchieved()
+{
+    ++puzzlesAchieved;
+
+    if (totalNumberOfPuzzles == puzzlesAchieved)
+    {
+        LastPuzzleDone.Broadcast(); // Sending Delegate That We just did the last puzzle to open portal.
+    }
 }
