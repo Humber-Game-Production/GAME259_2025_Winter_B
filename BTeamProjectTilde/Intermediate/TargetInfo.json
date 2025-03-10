@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "BTeamProjectTilde",
+			"Path": "..\\Source\\BTeamProjectTilde.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "BTeamProjectTildeEditor",
+			"Path": "..\\Source\\BTeamProjectTildeEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
