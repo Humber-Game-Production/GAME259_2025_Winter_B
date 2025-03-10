@@ -320,3 +320,7 @@ RELEASE_MSG
 BTeamProjectTilde/Makefile
 BTeamProjectTilde/.ignore
 BTeamProjectTilde/Saved
+/BTeamProjectTilde/Intermediate
+*.log
+/BTeamProjectTilde/Saved
+/BTeamProjectTilde/Intermediate
