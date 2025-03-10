@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.cpp"
-=======
-"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.cpp"
->>>>>>> Camera-Gamemode
 /I "."
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
@@ -13,17 +9,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt"
-<<<<<<< HEAD
 /Yc"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h"
 /Fp"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.pch"
 /Fo"C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj"
 /sourceDependencies "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.dep.json"
-=======
-/Yc"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h"
-/Fp"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.pch"
-/Fo"X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj"
-/sourceDependencies "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.dep.json"
->>>>>>> Camera-Gamemode
 /Zc:inline
 /nologo
 /Oi

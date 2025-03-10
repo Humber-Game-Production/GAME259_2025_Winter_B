@@ -1,7 +1,6 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< HEAD
         "Source": "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.gen.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
@@ -17,23 +16,6 @@
             "a:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "a:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
             "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.generated.h"
-=======
-        "Source": "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
-            "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\iriscore\\uht\\irisobjectreferencepackagemap.generated.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\charactermovementreplication.generated.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.generated.h"
->>>>>>> Camera-Gamemode
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

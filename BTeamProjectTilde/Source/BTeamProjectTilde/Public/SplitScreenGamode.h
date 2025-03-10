@@ -60,7 +60,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
 	void SwitchBackCamera(int playerId);
 
-	UPROPERTY()
+	UPROPERTY(BlueprintAssignable, BlueprintCallable)
 	FLastPuzzleIsDone LastPuzzleDone;
 
 private:
@@ -79,9 +79,7 @@ private:
 	UPROPERTY()
 	int totalNumberOfPuzzles = 0;
 
-	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
-	void RestartLevel(); // Self-Explanitory
-
+	
 	UFUNCTION(BlueprintCallable, Category = "Spilt Screen")
 	void UpdatePuzzlesAchieved();
 

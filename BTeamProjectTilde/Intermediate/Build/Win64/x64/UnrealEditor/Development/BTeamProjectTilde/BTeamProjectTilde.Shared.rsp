@@ -1,8 +1,5 @@
 /I "."
-<<<<<<< HEAD
 /I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\Private"
-=======
-/I "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\Private"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode"
 /I "Runtime\CoreUObject\Public"
@@ -21,25 +18,12 @@
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\InputCore\UHT"
 /I "Runtime\InputCore\Classes"
 /I "Runtime\InputCore\Public"
->>>>>>> Camera-Gamemode
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT"
 /I "Runtime\Engine\Classes"
 /I "Runtime\Engine\Public"
 /I "Runtime\Engine\Internal"
-/I "Runtime\Core\Public"
-/I "Runtime\Core\Internal"
-/I "Runtime\TraceLog\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreOnline\UHT"
 /I "Runtime\CoreOnline\Public"
-<<<<<<< HEAD
-/I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT"
-/I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode"
-/I "Runtime\CoreUObject\Public"
-/I "Runtime\CoreUObject\Internal"
-/I "..\Intermediate\Build\Win64\UnrealEditor\Inc\FieldNotification\UHT"
-/I "Runtime\FieldNotification\Public"
-=======
->>>>>>> Camera-Gamemode
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\NetCore\UHT"
 /I "Runtime\Net\Core\Classes"
 /I "Runtime\Net\Core\Public"
@@ -288,11 +272,6 @@
 /I "Editor\SceneDepthPickerMode\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationEditMode\UHT"
 /I "Editor\AnimationEditMode\Public"
-<<<<<<< HEAD
-/I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT"
-/I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Source"
-/I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\Public"
-=======
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\TimeManagement\UHT"
 /I "Runtime\TimeManagement\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\UniversalObjectLocator\UHT"
@@ -303,10 +282,9 @@
 /I "Runtime\Experimental\Animation\Constraints\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\PropertyPath\UHT"
 /I "Runtime\PropertyPath\Public"
-/I "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT"
-/I "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Source"
-/I "X:\Humber\Sem 4\Game Production 2\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\Public"
->>>>>>> Camera-Gamemode
+/I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT"
+/I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Source"
+/I "C:\Users\Andyb\OneDrive\Documentos\GitHub\GAME-LEVEL-RECREATION\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\Public"
 /I "..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT"
 /I "..\Plugins\EnhancedInput\Source"
 /I "..\Plugins\EnhancedInput\Source\EnhancedInput\Public"

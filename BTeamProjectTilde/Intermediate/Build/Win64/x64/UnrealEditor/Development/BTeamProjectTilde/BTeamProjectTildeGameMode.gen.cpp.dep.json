@@ -1,7 +1,6 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< HEAD
         "Source": "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildegamemode.gen.cpp",
         "ProvidedModule": "",
         "PCH": "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
@@ -13,19 +12,6 @@
             "a:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "a:\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
             "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildegamemode.generated.h"
-=======
-        "Source": "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildegamemode.gen.cpp",
-        "ProvidedModule": "",
-        "PCH": "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
-            "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildegamemode.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
-            "x:\\programs\\games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-            "x:\\humber\\sem 4\\game production 2\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildegamemode.generated.h"
->>>>>>> Camera-Gamemode
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

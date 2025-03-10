@@ -17,7 +17,12 @@ enum class ECMode : uint8;
 #endif
 #define BTEAMPROJECTTILDE_SplitScreenGamode_generated_h
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_15_DELEGATE \
+BTEAMPROJECTTILDE_API void FLastPuzzleIsDone_DelegateWrapper(const FMulticastScriptDelegate& LastPuzzleIsDone);
+
+
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	DECLARE_FUNCTION(execUpdatePuzzlesAchieved); \
 	DECLARE_FUNCTION(execGetCameraViewport); \
 	DECLARE_FUNCTION(execGetAssignedViewport); \
 	DECLARE_FUNCTION(execSwitchBackCamera); \
@@ -27,7 +32,7 @@ enum class ECMode : uint8;
 	DECLARE_FUNCTION(execSetMode);
 
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_INCLASS_NO_PURE_DECLS \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASplitScreenGamode(); \
 	friend struct Z_Construct_UClass_ASplitScreenGamode_Statics; \
@@ -36,7 +41,7 @@ public: \
 	DECLARE_SERIALIZER(ASplitScreenGamode)
 
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_ENHANCED_CONSTRUCTORS \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	ASplitScreenGamode(ASplitScreenGamode&&); \
@@ -48,13 +53,13 @@ public: \
 	NO_API virtual ~ASplitScreenGamode();
 
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_17_PROLOG
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_GENERATED_BODY \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_19_PROLOG
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_INCLASS_NO_PURE_DECLS \
-	FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_20_ENHANCED_CONSTRUCTORS \
+	FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_INCLASS_NO_PURE_DECLS \
+	FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_22_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -62,7 +67,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BTEAMPROJECTTILDE_API UClass* StaticClass<class ASplitScreenGamode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h
+#define CURRENT_FILE_ID FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

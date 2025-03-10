@@ -78,23 +78,14 @@ ABTeamProjectTildeGameMode::~ABTeamProjectTildeGameMode() {}
 // End Class ABTeamProjectTildeGameMode
 
 // Begin Registration
-<<<<<<< HEAD
 struct Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_Statics
-=======
-struct Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_Statics
->>>>>>> Camera-Gamemode
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
 		{ Z_Construct_UClass_ABTeamProjectTildeGameMode, ABTeamProjectTildeGameMode::StaticClass, TEXT("ABTeamProjectTildeGameMode"), &Z_Registration_Info_UClass_ABTeamProjectTildeGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABTeamProjectTildeGameMode), 399305807U) },
 	};
 };
-<<<<<<< HEAD
 static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_882815681(TEXT("/Script/BTeamProjectTilde"),
 	Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_Statics::ClassInfo),
-=======
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_882815681(TEXT("/Script/BTeamProjectTilde"),
-	Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_BTeamProjectTildeGameMode_h_Statics::ClassInfo),
->>>>>>> Camera-Gamemode
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

@@ -130,12 +130,9 @@ void ABTeamProjectTildeCharacter::Look(const FInputActionValue& Value)
 	}
 }
 
-void ABTeamProjectTildeCharacter::RestartLevelDelegate()
+void ABTeamProjectTildeCharacter::RespawnPlayersDelegate()
 {
-	RestartLevel.Broadcast();
+	respawnPlayers.Broadcast();
 }
 
-void ABTeamProjectTildeCharacter::PuzzleFinishedDelegate()
-{
-	OnPuzzleFinished.Broadcast();
-}
+

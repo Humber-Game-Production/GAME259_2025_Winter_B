@@ -22,30 +22,6 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-BTeamProjectTilde.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-BTeamProjectTilde.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UEGitPlugin-3.16/Binaries/Win64/UnrealEditor-GitSourceControl.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UEGitPlugin-3.16/Binaries/Win64/UnrealEditor-GitSourceControl.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UEGitPlugin-3.16/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
-		},
-		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -6460,7 +6436,6 @@
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
-<<<<<<< HEAD
 		},
 		{
 			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-BTeamProjectTilde.dll",
@@ -6485,19 +6460,9 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/UEGitPlugin-3.16/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
-=======
->>>>>>> Camera-Gamemode
 		}
 	],
 	"RuntimeDependencies": [
-		{
-			"Path": "$(ProjectDir)/BTeamProjectTilde.uproject",
-			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/Plugins/UEGitPlugin-3.16/GitSourceControl.uplugin",
-			"Type": "UFS"
-		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
 			"Type": "NonUFS"
@@ -29529,7 +29494,6 @@
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
 			"Type": "UFS"
-<<<<<<< HEAD
 		},
 		{
 			"Path": "$(ProjectDir)/BTeamProjectTilde.uproject",
@@ -29538,8 +29502,6 @@
 		{
 			"Path": "$(ProjectDir)/Plugins/UEGitPlugin-3.16/GitSourceControl.uplugin",
 			"Type": "UFS"
-=======
->>>>>>> Camera-Gamemode
 		}
 	],
 	"BuildPlugins": [

@@ -16,12 +16,39 @@ BTEAMPROJECTTILDE_API UClass* Z_Construct_UClass_UCamWidget_NoRegister();
 BTEAMPROJECTTILDE_API UClass* Z_Construct_UClass_UContainerWidget_NoRegister();
 BTEAMPROJECTTILDE_API UClass* Z_Construct_UClass_UScreenManager_NoRegister();
 BTEAMPROJECTTILDE_API UEnum* Z_Construct_UEnum_BTeamProjectTilde_ECMode();
+BTEAMPROJECTTILDE_API UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature();
 COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 ENGINE_API UClass* Z_Construct_UClass_AGameModeBase();
 UMG_API UClass* Z_Construct_UClass_UWidget_NoRegister();
 UPackage* Z_Construct_UPackage__Script_BTeamProjectTilde();
 // End Cross Module References
+
+// Begin Delegate FLastPuzzleIsDone
+struct Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature_Statics::FuncParams = { (UObject*(*)())Z_Construct_UPackage__Script_BTeamProjectTilde, nullptr, "LastPuzzleIsDone__DelegateSignature", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00130000, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature_Statics::Function_MetaDataParams), Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+void FLastPuzzleIsDone_DelegateWrapper(const FMulticastScriptDelegate& LastPuzzleIsDone)
+{
+	LastPuzzleIsDone.ProcessMulticastDelegate<UObject>(NULL);
+}
+// End Delegate FLastPuzzleIsDone
 
 // Begin Class ASplitScreenGamode Function AddUIWidgetToScreen
 struct Z_Construct_UFunction_ASplitScreenGamode_AddUIWidgetToScreen_Statics
@@ -141,6 +168,7 @@ struct Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Spilt Screen" },
 		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
 	};
 #endif // WITH_METADATA
@@ -156,7 +184,7 @@ const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASplit
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::NewProp_ReturnValue,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::PropPointers) < 2048);
-const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASplitScreenGamode, nullptr, "GetCameraViewport", nullptr, nullptr, Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::PropPointers), sizeof(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::SplitScreenGamode_eventGetCameraViewport_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::Function_MetaDataParams), Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::Function_MetaDataParams) };
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASplitScreenGamode, nullptr, "GetCameraViewport", nullptr, nullptr, Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::PropPointers), sizeof(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::SplitScreenGamode_eventGetCameraViewport_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::Function_MetaDataParams), Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::Function_MetaDataParams) };
 static_assert(sizeof(Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport_Statics::SplitScreenGamode_eventGetCameraViewport_Parms) < MAX_uint16);
 UFunction* Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport()
 {
@@ -368,6 +396,36 @@ DEFINE_FUNCTION(ASplitScreenGamode::execSwitchInCamera)
 }
 // End Class ASplitScreenGamode Function SwitchInCamera
 
+// Begin Class ASplitScreenGamode Function UpdatePuzzlesAchieved
+struct Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved_Statics
+{
+#if WITH_METADATA
+	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Spilt Screen" },
+		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
+	};
+#endif // WITH_METADATA
+	static const UECodeGen_Private::FFunctionParams FuncParams;
+};
+const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASplitScreenGamode, nullptr, "UpdatePuzzlesAchieved", nullptr, nullptr, nullptr, 0, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved_Statics::Function_MetaDataParams), Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved_Statics::Function_MetaDataParams) };
+UFunction* Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved()
+{
+	static UFunction* ReturnFunction = nullptr;
+	if (!ReturnFunction)
+	{
+		UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved_Statics::FuncParams);
+	}
+	return ReturnFunction;
+}
+DEFINE_FUNCTION(ASplitScreenGamode::execUpdatePuzzlesAchieved)
+{
+	P_FINISH;
+	P_NATIVE_BEGIN;
+	P_THIS->UpdatePuzzlesAchieved();
+	P_NATIVE_END;
+}
+// End Class ASplitScreenGamode Function UpdatePuzzlesAchieved
+
 // Begin Class ASplitScreenGamode
 void ASplitScreenGamode::StaticRegisterNativesASplitScreenGamode()
 {
@@ -380,6 +438,7 @@ void ASplitScreenGamode::StaticRegisterNativesASplitScreenGamode()
 		{ "SetMode", &ASplitScreenGamode::execSetMode },
 		{ "SwitchBackCamera", &ASplitScreenGamode::execSwitchBackCamera },
 		{ "SwitchInCamera", &ASplitScreenGamode::execSwitchInCamera },
+		{ "UpdatePuzzlesAchieved", &ASplitScreenGamode::execUpdatePuzzlesAchieved },
 	};
 	FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
 }
@@ -417,22 +476,41 @@ struct Z_Construct_UClass_ASplitScreenGamode_Statics
 		{ "Category", "Split Screen" },
 		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
 	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_LastPuzzleDone_MetaData[] = {
+		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_puzzlesAchieved_MetaData[] = {
+#if !UE_BUILD_SHIPPING
+		{ "Comment", "//Andy Puzzle logic\n" },
+#endif
+		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
+#if !UE_BUILD_SHIPPING
+		{ "ToolTip", "Andy Puzzle logic" },
+#endif
+	};
+	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_totalNumberOfPuzzles_MetaData[] = {
+		{ "ModuleRelativePath", "Public/SplitScreenGamode.h" },
+	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_pScreenManager;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_cCamWidget;
 	static const UECodeGen_Private::FClassPropertyParams NewProp_cContainerWidegt;
 	static const UECodeGen_Private::FBytePropertyParams NewProp_eCurrentmode_Underlying;
 	static const UECodeGen_Private::FEnumPropertyParams NewProp_eCurrentmode;
+	static const UECodeGen_Private::FMulticastDelegatePropertyParams NewProp_LastPuzzleDone;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_puzzlesAchieved;
+	static const UECodeGen_Private::FIntPropertyParams NewProp_totalNumberOfPuzzles;
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UFunction_ASplitScreenGamode_AddUIWidgetToScreen, "AddUIWidgetToScreen" }, // 2858426862
 		{ &Z_Construct_UFunction_ASplitScreenGamode_GetAssignedViewport, "GetAssignedViewport" }, // 4052433987
-		{ &Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport, "GetCameraViewport" }, // 2227623050
+		{ &Z_Construct_UFunction_ASplitScreenGamode_GetCameraViewport, "GetCameraViewport" }, // 4153310137
 		{ &Z_Construct_UFunction_ASplitScreenGamode_IniScreen, "IniScreen" }, // 2071581617
 		{ &Z_Construct_UFunction_ASplitScreenGamode_SetMode, "SetMode" }, // 2212606762
 		{ &Z_Construct_UFunction_ASplitScreenGamode_SwitchBackCamera, "SwitchBackCamera" }, // 3083509214
 		{ &Z_Construct_UFunction_ASplitScreenGamode_SwitchInCamera, "SwitchInCamera" }, // 2544604417
+		{ &Z_Construct_UFunction_ASplitScreenGamode_UpdatePuzzlesAchieved, "UpdatePuzzlesAchieved" }, // 917762596
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -445,12 +523,18 @@ const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASplitScreenGam
 const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_cContainerWidegt = { "cContainerWidegt", nullptr, (EPropertyFlags)0x0014000000000005, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASplitScreenGamode, cContainerWidegt), Z_Construct_UClass_UClass, Z_Construct_UClass_UContainerWidget_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_cContainerWidegt_MetaData), NewProp_cContainerWidegt_MetaData) };
 const UECodeGen_Private::FBytePropertyParams Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_eCurrentmode_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, 0, nullptr, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_eCurrentmode = { "eCurrentmode", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASplitScreenGamode, eCurrentmode), Z_Construct_UEnum_BTeamProjectTilde_ECMode, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_eCurrentmode_MetaData), NewProp_eCurrentmode_MetaData) }; // 3806085766
+const UECodeGen_Private::FMulticastDelegatePropertyParams Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_LastPuzzleDone = { "LastPuzzleDone", nullptr, (EPropertyFlags)0x0010100010080000, UECodeGen_Private::EPropertyGenFlags::InlineMulticastDelegate, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASplitScreenGamode, LastPuzzleDone), Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_LastPuzzleDone_MetaData), NewProp_LastPuzzleDone_MetaData) }; // 4025262820
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_puzzlesAchieved = { "puzzlesAchieved", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASplitScreenGamode, puzzlesAchieved), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_puzzlesAchieved_MetaData), NewProp_puzzlesAchieved_MetaData) };
+const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_totalNumberOfPuzzles = { "totalNumberOfPuzzles", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ASplitScreenGamode, totalNumberOfPuzzles), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_totalNumberOfPuzzles_MetaData), NewProp_totalNumberOfPuzzles_MetaData) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASplitScreenGamode_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_pScreenManager,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_cCamWidget,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_cContainerWidegt,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_eCurrentmode_Underlying,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_eCurrentmode,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_LastPuzzleDone,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_puzzlesAchieved,
+	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASplitScreenGamode_Statics::NewProp_totalNumberOfPuzzles,
 };
 static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ASplitScreenGamode_Statics::PropPointers) < 2048);
 UObject* (*const Z_Construct_UClass_ASplitScreenGamode_Statics::DependentSingletons[])() = {
@@ -490,14 +574,14 @@ ASplitScreenGamode::~ASplitScreenGamode() {}
 // End Class ASplitScreenGamode
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_Statics
+struct Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ASplitScreenGamode, ASplitScreenGamode::StaticClass, TEXT("ASplitScreenGamode"), &Z_Registration_Info_UClass_ASplitScreenGamode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASplitScreenGamode), 2688694203U) },
+		{ Z_Construct_UClass_ASplitScreenGamode, ASplitScreenGamode::StaticClass, TEXT("ASplitScreenGamode"), &Z_Registration_Info_UClass_ASplitScreenGamode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ASplitScreenGamode), 938105336U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_4152592492(TEXT("/Script/BTeamProjectTilde"),
-	Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_4043332747(TEXT("/Script/BTeamProjectTilde"),
+	Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_SplitScreenGamode_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

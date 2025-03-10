@@ -16,7 +16,7 @@ class UWidget;
 #endif
 #define BTEAMPROJECTTILDE_ContainerWidget_generated_h
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execAddCameraWidgetToLayout); \
 	DECLARE_FUNCTION(execAddUIWidgetToContainer); \
 	DECLARE_FUNCTION(execUpdateLayout); \
@@ -24,7 +24,7 @@ class UWidget;
 	DECLARE_FUNCTION(execAddCameraWidget);
 
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_INCLASS_NO_PURE_DECLS \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUContainerWidget(); \
 	friend struct Z_Construct_UClass_UContainerWidget_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(UContainerWidget)
 
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_ENHANCED_CONSTRUCTORS \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UContainerWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -47,13 +47,13 @@ public: \
 	NO_API virtual ~UContainerWidget();
 
 
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_15_PROLOG
-#define FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_GENERATED_BODY \
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_15_PROLOG
+#define FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_INCLASS_NO_PURE_DECLS \
-	FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_ENHANCED_CONSTRUCTORS \
+	FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_INCLASS_NO_PURE_DECLS \
+	FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h_18_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -61,7 +61,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> BTEAMPROJECTTILDE_API UClass* StaticClass<class UContainerWidget>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h
+#define CURRENT_FILE_ID FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ContainerWidget_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

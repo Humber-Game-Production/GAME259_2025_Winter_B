@@ -7,10 +7,8 @@
 #include "Logging/LogMacros.h"
 #include "BTeamProjectTildeCharacter.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FRestartLevel); // Delegate To Restart
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FRespawnPlayers); // Delegate To Respawn Players
 
-
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnPuzzleFinished); // Delegate To Restart
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -52,15 +50,10 @@ class ABTeamProjectTildeCharacter : public ACharacter
 public:
 	ABTeamProjectTildeCharacter();
 	
-	void RestartLevelDelegate(); // Restart Function Delegate Send To GameMode
+	void RespawnPlayersDelegate(); //Respawn Players Function 
 
-	void PuzzleFinishedDelegate(); // Sends Delegate To GameMode To Update Puzzles Achieved Variable in GameMode
-
-	UPROPERTY()
-	FRestartLevel RestartLevel;
-
-	UPROPERTY()
-	FOnPuzzleFinished OnPuzzleFinished;
+	UPROPERTY(BlueprintCallable, BlueprintAssignable)
+	FRespawnPlayers respawnPlayers;// Function To Respawn Players
 protected:
 
 	/** Called for movement input */

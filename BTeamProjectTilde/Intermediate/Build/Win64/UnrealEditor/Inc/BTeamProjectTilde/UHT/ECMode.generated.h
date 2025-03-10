@@ -16,7 +16,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define BTEAMPROJECTTILDE_ECMode_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Humber_Sem_4_Game_Production_2_GAME259_2025_Winter_B_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ECMode_h
+#define CURRENT_FILE_ID FID_BTeamProjectTilde_Source_BTeamProjectTilde_Public_ECMode_h
 
 
 #define FOREACH_ENUM_ECMODE(op) \

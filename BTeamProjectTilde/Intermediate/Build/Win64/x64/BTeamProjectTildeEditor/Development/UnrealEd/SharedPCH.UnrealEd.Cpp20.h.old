@@ -1,7 +1,0 @@
-// PCH for Editor/UnrealEd/Public/UnrealEdSharedPCH.h
-<<<<<<< HEAD
-#include "C:/Users/Administrator/Documents/GitHub/GAME259_2025_Winter_B/BTeamProjectTilde/Intermediate/Build/Win64/x64/BTeamProjectTildeEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.h"
-=======
-#include "C:/Users/kevin/Documents/Notes Semester 4/GAME PRODUCTON REPO/BTeamProjectTilde/Intermediate/Build/Win64/x64/BTeamProjectTildeEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.h"
->>>>>>> Camera-Gamemode
-#include "Editor/UnrealEd/Public/UnrealEdSharedPCH.h"
