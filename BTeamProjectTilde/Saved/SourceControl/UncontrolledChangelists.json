@@ -1,0 +1,13 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/mrmys/OneDrive/Documents/GitHub/GAME259_2025_Winter_B/GAME259_2025_Winter_B/BTeamProjectTilde/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/TD/PD3BOC4CX6HNPLWLMRV7KY.uasset",
+				"C:/Users/mrmys/OneDrive/Documents/GitHub/GAME259_2025_Winter_B/GAME259_2025_Winter_B/BTeamProjectTilde/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/0/42/6IT8VYGSUHUTK5A3VEBOL5.uasset"
+			]
+		}
+	]
+}

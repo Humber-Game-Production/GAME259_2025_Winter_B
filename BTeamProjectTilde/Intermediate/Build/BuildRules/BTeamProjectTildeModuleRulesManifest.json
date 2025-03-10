@@ -1,0 +1,9 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\mrmys\\OneDrive\\Documents\\GitHub\\GAME259_2025_Winter_B\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTilde\\BTeamProjectTilde.Build.cs",
+		"C:\\Users\\mrmys\\OneDrive\\Documents\\GitHub\\GAME259_2025_Winter_B\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Plugins\\UEGitPlugin-3.16\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
+		"C:\\Users\\mrmys\\OneDrive\\Documents\\GitHub\\GAME259_2025_Winter_B\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTilde.Target.cs",
+		"C:\\Users\\mrmys\\OneDrive\\Documents\\GitHub\\GAME259_2025_Winter_B\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTildeEditor.Target.cs"
+	],
+	"EngineVersion": "5.4.4"
+}
