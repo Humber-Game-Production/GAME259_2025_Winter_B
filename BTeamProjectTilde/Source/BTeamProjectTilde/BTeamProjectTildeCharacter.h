@@ -7,9 +7,6 @@
 #include "Logging/LogMacros.h"
 #include "BTeamProjectTildeCharacter.generated.h"
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FRespawnPlayers); // Delegate To Respawn Players
-
-
 class USpringArmComponent;
 class UCameraComponent;
 class UInputMappingContext;
@@ -50,10 +47,7 @@ class ABTeamProjectTildeCharacter : public ACharacter
 public:
 	ABTeamProjectTildeCharacter();
 	
-	void RespawnPlayersDelegate(); //Respawn Players Function 
 
-	UPROPERTY(BlueprintCallable, BlueprintAssignable)
-	FRespawnPlayers respawnPlayers;// Function To Respawn Players
 protected:
 
 	/** Called for movement input */
