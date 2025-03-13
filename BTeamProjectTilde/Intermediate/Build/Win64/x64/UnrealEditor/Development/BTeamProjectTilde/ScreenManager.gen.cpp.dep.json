@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\screenmanager.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
+            "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\public\\screenmanager.h",
+            "a:\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "a:\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "a:\\ue_5.4\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "a:\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "a:\\ue_5.4\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "a:\\ue_5.4\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "c:\\users\\andyb\\onedrive\\documentos\\github\\game-level-recreation\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\screenmanager.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
