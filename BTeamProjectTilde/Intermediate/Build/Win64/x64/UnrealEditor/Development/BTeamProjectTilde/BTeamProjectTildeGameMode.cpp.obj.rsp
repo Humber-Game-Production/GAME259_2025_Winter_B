@@ -1,11 +1,11 @@
-"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp"
-/FI"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
-/Yu"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.obj"
-/sourceDependencies "E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.dep.json"
-@"E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
+"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Source\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp"
+/FI"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/FI"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
+/Yu"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
+/Fp"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
+/Fo"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.obj"
+/sourceDependencies "D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.dep.json"
+@"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
 /Zc:inline
 /nologo
 /Oi
