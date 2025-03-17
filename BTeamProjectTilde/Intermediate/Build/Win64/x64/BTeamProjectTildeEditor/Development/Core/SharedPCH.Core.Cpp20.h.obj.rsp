@@ -1,4 +1,4 @@
-"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.cpp"
+"C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.cpp"
 /I "."
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
@@ -9,10 +9,10 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt"
-/Yc"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h"
-/Fp"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.pch"
-/Fo"D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj"
-/sourceDependencies "D:\Humber College\Term 4\Game Development\GIT\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.dep.json"
+/Yc"C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h"
+/Fp"C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.pch"
+/Fo"C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.obj"
+/sourceDependencies "C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\Core\SharedPCH.Core.Cpp20.h.dep.json"
 /Zc:inline
 /nologo
 /Oi
