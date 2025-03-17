@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-BTeamProjectTilde.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.init.gen.cpp.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.gen.cpp.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.cpp.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeCharacter.cpp.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.cpp.obj"
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Default.rc2.res"
+/OUT:"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\UnrealEditor-BTeamProjectTilde.lib"
