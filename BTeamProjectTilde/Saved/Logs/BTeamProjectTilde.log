@@ -18,14 +18,14 @@ LogCsvProfiler: Display: Metadata set : platform="Windows"
 LogCsvProfiler: Display: Metadata set : config="Development"
 LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.4-CL-35576357"
 LogCsvProfiler: Display: Metadata set : engineversion="5.4.4-35576357+++UE5+Release-5.4"
-LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.3476] "
-LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i7-13700F"
+LogCsvProfiler: Display: Metadata set : os="Windows 11 (24H2) [10.0.26100.3194] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|13th Gen Intel(R) Core(TM) i9-13900H"
 LogCsvProfiler: Display: Metadata set : pgoenabled="0"
 LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
 LogCsvProfiler: Display: Metadata set : ltoenabled="0"
 LogCsvProfiler: Display: Metadata set : asan="0"
-LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\BTeamProjectTilde.uproject""
-LogCsvProfiler: Display: Metadata set : loginid="3fd065d8430508096f1ce9b6a42f3337"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\BTeamProjectTilde.uproject""
+LogCsvProfiler: Display: Metadata set : loginid="974873874c8af43bb0ee6fbd351de974"
 LogCsvProfiler: Display: Metadata set : llm="0"
 LogStats: Stats thread started at 0.395497
 LogPluginManager: Display: By default, prioritizing project plugin (../../../../../../Users/cassi/Desktop/Git/GAME259_2025_Winter_B/BTeamProjectTilde/Plugins/UEGitPlugin-3.16/GitSourceControl.uplugin) over the corresponding engine version (../../../Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin).
@@ -297,6 +297,11 @@ LogInit: CreateHttpThread using FCurlHttpThread
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
 LogOnline: OSS: Created online subsystem instance for: NULL
 LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for type [NULL]
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
 LogInit: ExecutableName: UnrealEditor.exe
 LogInit: Build: ++UE5+Release-5.4-CL-35576357
 LogInit: Platform=WindowsEditor
@@ -305,7 +310,7 @@ LogInit: DeviceId=
 LogInit: Engine Version: 5.4.4-35576357+++UE5+Release-5.4
 LogInit: Compatible Engine Version: 5.4.0-33043543+++UE5+Release-5.4
 LogInit: Net CL: 33043543
-LogInit: OS: Windows 11 (24H2) [10.0.26100.3476] (), CPU: 13th Gen Intel(R) Core(TM) i7-13700F, GPU: NVIDIA GeForce RTX 4070
+LogInit: OS: Windows 11 (24H2) [10.0.26100.3194] (), CPU: 13th Gen Intel(R) Core(TM) i9-13900H, GPU: Intel(R) Iris(R) Xe Graphics
 LogInit: Compiled (64-bit): Aug 16 2024 04:10:34
 LogInit: Architecture: x64
 LogInit: Compiled with Visual C++: 19.38.33130.00
