@@ -1,9 +1,9 @@
 {
 	"SourceFiles": [
-		"E:\\year2\\Semester4\\Game Level\\Git\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTilde\\BTeamProjectTilde.Build.cs",
-		"E:\\year2\\Semester4\\Game Level\\Git\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Plugins\\UEGitPlugin-3.16\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
-		"E:\\year2\\Semester4\\Game Level\\Git\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTilde.Target.cs",
-		"E:\\year2\\Semester4\\Game Level\\Git\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTildeEditor.Target.cs"
+		"D:\\Clara_Github\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTilde\\BTeamProjectTilde.Build.cs",
+		"D:\\Clara_Github\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Plugins\\UEGitPlugin-3.16\\Source\\GitSourceControl\\GitSourceControl.Build.cs",
+		"D:\\Clara_Github\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTilde.Target.cs",
+		"D:\\Clara_Github\\GAME259_2025_Winter_B\\BTeamProjectTilde\\Source\\BTeamProjectTildeEditor.Target.cs"
 	],
 	"EngineVersion": "5.4.4"
 }
