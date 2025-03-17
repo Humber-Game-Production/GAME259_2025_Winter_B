@@ -7,23 +7,15 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeBTeamProjectTilde_init() {}
-	BTEAMPROJECTTILDE_API UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleDone__DelegateSignature();
-	BTEAMPROJECTTILDE_API UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature();
-	BTEAMPROJECTTILDE_API UFunction* Z_Construct_UDelegateFunction_BTeamProjectTilde_RespawnPlayers__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_BTeamProjectTilde;
 	FORCENOINLINE UPackage* Z_Construct_UPackage__Script_BTeamProjectTilde()
 	{
 		if (!Z_Registration_Info_UPackage__Script_BTeamProjectTilde.OuterSingleton)
 		{
-			static UObject* (*const SingletonFuncArray[])() = {
-				(UObject* (*)())Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleDone__DelegateSignature,
-				(UObject* (*)())Z_Construct_UDelegateFunction_BTeamProjectTilde_LastPuzzleIsDone__DelegateSignature,
-				(UObject* (*)())Z_Construct_UDelegateFunction_BTeamProjectTilde_RespawnPlayers__DelegateSignature,
-			};
 			static const UECodeGen_Private::FPackageParams PackageParams = {
 				"/Script/BTeamProjectTilde",
-				SingletonFuncArray,
-				UE_ARRAY_COUNT(SingletonFuncArray),
+				nullptr,
+				0,
 				PKG_CompiledIn | 0x00000000,
 				0x38BFF9EB,
 				0x38AD711A,
