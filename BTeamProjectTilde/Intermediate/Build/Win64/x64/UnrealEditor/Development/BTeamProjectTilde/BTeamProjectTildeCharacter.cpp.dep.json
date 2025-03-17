@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\year2\\semester4\\game level\\git\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.cpp",
+        "Source": "c:\\users\\cassi\\desktop\\git\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\year2\\semester4\\game level\\git\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "PCH": "c:\\users\\cassi\\desktop\\git\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
-            "e:\\year2\\semester4\\game level\\git\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
-            "e:\\year2\\semester4\\game level\\git\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.h",
+            "c:\\users\\cassi\\desktop\\git\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
+            "c:\\users\\cassi\\desktop\\git\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
@@ -15,7 +15,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-            "e:\\year2\\semester4\\game level\\git\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.generated.h",
+            "c:\\users\\cassi\\desktop\\git\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",

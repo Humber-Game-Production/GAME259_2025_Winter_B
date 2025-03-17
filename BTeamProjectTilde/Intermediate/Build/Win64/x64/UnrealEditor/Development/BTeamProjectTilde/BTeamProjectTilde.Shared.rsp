@@ -1,6 +1,6 @@
 /I "."
-/I "E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT"
-/I "E:\year2\Semester4\Game Level\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Source"
+/I "C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT"
+/I "C:\Users\cassi\Desktop\Git\GAME259_2025_Winter_B\BTeamProjectTilde\Source"
 /I "Runtime\Core\Public"
 /I "Runtime\Core\Internal"
 /I "Runtime\TraceLog\Public"
