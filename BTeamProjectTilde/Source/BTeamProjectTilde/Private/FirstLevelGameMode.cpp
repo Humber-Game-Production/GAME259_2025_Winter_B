@@ -47,6 +47,6 @@ void AFirstLevelGameMode::UpdatePuzzlesAchieved()
 
 	if(totalNumberOfPuzzles == puzzlesAchieved)
 	{
-		LastPuzzleDone.Broadcast(); // Sending Delegate That We just did the last puzzle to open portal.
+		//LastPuzzleDone.Broadcast(); // Sending Delegate That We just did the last puzzle to open portal.
 	}
 }
