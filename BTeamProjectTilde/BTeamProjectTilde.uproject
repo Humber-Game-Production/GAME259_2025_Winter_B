@@ -8,7 +8,12 @@
 			"Name": "BTeamProjectTilde",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		}
+		},
+		 {
+        		"Name": "AIModule",
+        		"Type": "Runtime",
+        		"LoadingPhase": "Default"
+    		}
 	],
 	"Plugins": [
 		{
