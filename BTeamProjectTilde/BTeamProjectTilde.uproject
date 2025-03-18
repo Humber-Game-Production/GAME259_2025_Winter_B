@@ -7,13 +7,18 @@
 		{
 			"Name": "BTeamProjectTilde",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"CoreUObject",
+				"UMG"
+			]
 		},
-		 {
-        		"Name": "AIModule",
-        		"Type": "Runtime",
-        		"LoadingPhase": "Default"
-    		}
+		{
+			"Name": "AIModule",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
 	],
 	"Plugins": [
 		{
