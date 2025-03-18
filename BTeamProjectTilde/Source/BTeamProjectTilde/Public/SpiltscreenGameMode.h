@@ -15,7 +15,7 @@ class UWidget;
  *
  */
 UCLASS(Blueprintable)
-class BTEAMPROJECTTILDE_API ASplitScreenGamode : public AGameModeBase
+class BTEAMPROJECTTILDE_API ASplitScreenGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
@@ -27,7 +27,7 @@ protected:
 
 public:
 
-	ASplitScreenGamode();
+	ASplitScreenGameMode();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spilt Screen")
 	TSubclassOf<UCameraWidget> cCamWidget;

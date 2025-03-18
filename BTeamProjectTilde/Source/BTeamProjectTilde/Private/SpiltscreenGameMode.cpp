@@ -8,7 +8,7 @@
 #include "BTeamProjectTilde/Public/ECMode.h"
 #include "Kismet/GameplayStatics.h"
 
-void ASplitScreenGamode::EndPlay(const EEndPlayReason::Type EndPlayReason)
+void ASplitScreenGameMode::EndPlay(const EEndPlayReason::Type EndPlayReason)
 {
 	Super::EndPlay(EndPlayReason);
 	    if (pScreenManager)
@@ -18,18 +18,18 @@ void ASplitScreenGamode::EndPlay(const EEndPlayReason::Type EndPlayReason)
 	    }
 }
 
-ASplitScreenGamode::ASplitScreenGamode()
+ASplitScreenGameMode::ASplitScreenGameMode()
 {
 	pScreenManager = nullptr;
    eCurrentmode = ECMode::OneCamera;
 }
 
-void ASplitScreenGamode::SetMode(ECMode mode)
+void ASplitScreenGameMode::SetMode(ECMode mode)
 {
 	eCurrentmode = mode;
 }
 
-void ASplitScreenGamode::IniScreen()
+void ASplitScreenGameMode::IniScreen()
 {
 	pScreenManager = NewObject<USCManager>(this, USCManager::StaticClass());
 	    if (pScreenManager) {
@@ -42,25 +42,25 @@ void ASplitScreenGamode::IniScreen()
 	    }
 }
 
-void ASplitScreenGamode::AddUIWidgetToScreen(UWidget* widget_, int Zorder, int viewPort)
+void ASplitScreenGameMode::AddUIWidgetToScreen(UWidget* widget_, int Zorder, int viewPort)
 {
 	pScreenManager->AddUIWidgetToScreen(widget_, Zorder, viewPort);
 }
 
-void ASplitScreenGamode::SwitchInCamera(AActor* Camera, int playerId)
+void ASplitScreenGameMode::SwitchInCamera(AActor* Camera, int playerId)
 {
 	int viewPort = GetCameraViewport(playerId);
 	pScreenManager->SwitchInCamera(Camera, viewPort);
 	
 }
 
-void ASplitScreenGamode::SwitchBackCamera(int playerId)
+void ASplitScreenGameMode::SwitchBackCamera(int playerId)
 {
 	int viewPort = GetCameraViewport(playerId);
    pScreenManager->SwitchBackCamera(viewPort);
 }
 
-int ASplitScreenGamode::GetAssignedViewport(int PlayerID)
+int ASplitScreenGameMode::GetAssignedViewport(int PlayerID)
 {
 	if (PlayerID < 0) { return 0; }
 	
@@ -78,7 +78,7 @@ int ASplitScreenGamode::GetAssignedViewport(int PlayerID)
 	    return 0;// default return
 }
 
-int ASplitScreenGamode::GetCameraViewport(int PlayerID)
+int ASplitScreenGameMode::GetCameraViewport(int PlayerID)
 {
 	switch (eCurrentmode) {
 		    case ECMode::OneCamera:
@@ -94,7 +94,7 @@ int ASplitScreenGamode::GetCameraViewport(int PlayerID)
     return 0;
 }
 
-void ASplitScreenGamode::RestartLevel()
+void ASplitScreenGameMode::RestartLevel()
 {
 	 UWorld * World = GetWorld();
 	    if (World)
@@ -104,7 +104,7 @@ void ASplitScreenGamode::RestartLevel()
 	    }
 }
 
-void ASplitScreenGamode::UpdatePuzzlesAchieved()
+void ASplitScreenGameMode::UpdatePuzzlesAchieved()
 {
 	++puzzlesAchieved;
 	
