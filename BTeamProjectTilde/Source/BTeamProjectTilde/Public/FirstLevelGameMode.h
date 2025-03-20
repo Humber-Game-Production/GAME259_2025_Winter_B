@@ -24,15 +24,8 @@ public:
 	//FLastPuzzleDone LastPuzzleDone;//Sending Delegate To Whoever Portal To Let me in to next Level
 
 private:
-	int puzzlesAchieved = 0;
-
-	int totalNumberOfPuzzles = 0;
-
+	
 	UFUNCTION()
 	void RestartLevel(); // Self-Explanitory
-
-	UFUNCTION()
-	void UpdatePuzzlesAchieved();
-
 
 };
