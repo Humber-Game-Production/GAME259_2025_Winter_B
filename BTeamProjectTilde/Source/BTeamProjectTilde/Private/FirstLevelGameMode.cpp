@@ -41,12 +41,3 @@ void AFirstLevelGameMode::RestartLevel()
 	}
 }
 
-void AFirstLevelGameMode::UpdatePuzzlesAchieved()
-{
-	++puzzlesAchieved;
-
-	if(totalNumberOfPuzzles == puzzlesAchieved)
-	{
-		//LastPuzzleDone.Broadcast(); // Sending Delegate That We just did the last puzzle to open portal.
-	}
-}
