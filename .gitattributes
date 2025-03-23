@@ -30,3 +30,4 @@
 *.icns lfs
 # Movies
 *.bk2 lfs
+*.bat text eol=crlf
