@@ -11,6 +11,7 @@
     <None Include="..\..\Source\BTeamProjectTildeEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitignore" />
     <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
@@ -171,22 +172,28 @@
     <ClInclude Include="..\..\Source\BTeamProjectTilde\BTeamProjectTildeGameMode.h">
       <Filter>Source\BTeamProjectTilde</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\BTeamProjectTilde\CharacterAI.cpp">
+      <Filter>Source\BTeamProjectTilde</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BTeamProjectTilde\CharacterAI.h">
+      <Filter>Source\BTeamProjectTilde</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BTeamProjectTilde\CharacterParentAI.cpp">
+      <Filter>Source\BTeamProjectTilde</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BTeamProjectTilde\CharacterParentAI.h">
+      <Filter>Source\BTeamProjectTilde</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\BTeamProjectTilde\RobotAIController.cpp">
+      <Filter>Source\BTeamProjectTilde</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\BTeamProjectTilde\RobotAIController.h">
+      <Filter>Source\BTeamProjectTilde</Filter>
+    </ClInclude>
     <Filter Include="Source\BTeamProjectTilde\Private">
       <UniqueIdentifier>{6D9FBA48-AD7D-33F7-B05B-B918A73E4523}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\BTeamProjectTilde\Private\CamWidget.cpp">
-      <Filter>Source\BTeamProjectTilde\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BTeamProjectTilde\Private\ContainerWidget.cpp">
-      <Filter>Source\BTeamProjectTilde\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BTeamProjectTilde\Private\ECMode.cpp">
-      <Filter>Source\BTeamProjectTilde\Private</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\Source\BTeamProjectTilde\Private\FirstLevelGameMode.cpp">
-      <Filter>Source\BTeamProjectTilde\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\BTeamProjectTilde\Private\ScreenManager.cpp">
       <Filter>Source\BTeamProjectTilde\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\BTeamProjectTilde\Private\SplitScreenGamode.cpp">
@@ -195,19 +202,7 @@
     <Filter Include="Source\BTeamProjectTilde\Public">
       <UniqueIdentifier>{D8EDC3BC-FADD-34FA-938B-4C3E0655559D}</UniqueIdentifier>
     </Filter>
-    <ClInclude Include="..\..\Source\BTeamProjectTilde\Public\CamWidget.h">
-      <Filter>Source\BTeamProjectTilde\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BTeamProjectTilde\Public\ContainerWidget.h">
-      <Filter>Source\BTeamProjectTilde\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BTeamProjectTilde\Public\ECMode.h">
-      <Filter>Source\BTeamProjectTilde\Public</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\Source\BTeamProjectTilde\Public\FirstLevelGameMode.h">
-      <Filter>Source\BTeamProjectTilde\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\BTeamProjectTilde\Public\ScreenManager.h">
       <Filter>Source\BTeamProjectTilde\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\BTeamProjectTilde\Public\SplitScreenGamode.h">
