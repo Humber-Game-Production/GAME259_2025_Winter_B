@@ -1,32 +1,18 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< HEAD
         "Source": "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildegamemode.cpp",
         "ProvidedModule": "",
         "PCH": "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildegamemode.h",
-=======
-        "Source": "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildegamemode.cpp",
-        "ProvidedModule": "",
-        "PCH": "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildegamemode.h",
->>>>>>> main
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
-<<<<<<< HEAD
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildegamemode.generated.h",
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.h",
-=======
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildegamemode.generated.h",
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttildecharacter.h",
->>>>>>> main
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\character.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\charactermovementreplication.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\experimental\\iris\\core\\public\\iris\\serialization\\irisobjectreferencepackagemap.h",
@@ -35,11 +21,7 @@
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\rootmotionsource.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\rootmotionsource.generated.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\character.generated.h",
-<<<<<<< HEAD
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.generated.h"
-=======
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\unrealeditor\\inc\\bteamprojecttilde\\uht\\bteamprojecttildecharacter.generated.h"
->>>>>>> main
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

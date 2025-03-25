@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT\BTeamProjectTildeGameMode.gen.cpp"
 /FI"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
 /FI"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
@@ -7,16 +6,6 @@
 /Fo"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.obj"
 /sourceDependencies "D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.dep.json"
 @"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
-=======
-"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\UnrealEditor\Inc\BTeamProjectTilde\UHT\BTeamProjectTildeGameMode.gen.cpp"
-/FI"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/FI"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\Definitions.BTeamProjectTilde.h"
-/Yu"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h"
-/Fp"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.pch"
-/Fo"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.obj"
-/sourceDependencies "C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTildeGameMode.gen.cpp.dep.json"
-@"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\UnrealEditor\Development\BTeamProjectTilde\BTeamProjectTilde.Shared.rsp"
->>>>>>> main
 /Zc:inline
 /nologo
 /Oi

@@ -1,21 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-<<<<<<< HEAD
         "Source": "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttilde.cpp",
         "ProvidedModule": "",
         "PCH": "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
         "Includes": [
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttilde.h"
-=======
-        "Source": "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttilde.cpp",
-        "ProvidedModule": "",
-        "PCH": "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
-        "Includes": [
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\bteamprojecttilde\\definitions.bteamprojecttilde.h",
-            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\source\\bteamprojecttilde\\bteamprojecttilde.h"
->>>>>>> main
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
