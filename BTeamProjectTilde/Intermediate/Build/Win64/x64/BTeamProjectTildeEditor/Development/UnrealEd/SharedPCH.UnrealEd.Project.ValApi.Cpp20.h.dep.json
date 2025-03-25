@@ -1,11 +1,19 @@
 {
     "Version": "1.2",
     "Data": {
+<<<<<<< HEAD
         "Source": "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.cpp",
         "ProvidedModule": "",
         "Includes": [
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h",
             "d:\\clara_github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.cpp20.h",
+=======
+        "Source": "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.cpp",
+        "ProvidedModule": "",
+        "Includes": [
+            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h",
+            "c:\\users\\mrmys\\onedrive\\documents\\github\\game259_2025_winter_b\\bteamprojecttilde\\intermediate\\build\\win64\\x64\\bteamprojecttildeeditor\\development\\unrealed\\shareddefinitions.unrealed.project.valapi.cpp20.h",
+>>>>>>> main
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\editor\\unrealed\\public\\unrealedsharedpch.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\public\\enginesharedpch.h",
             "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\slate\\public\\slatesharedpch.h",

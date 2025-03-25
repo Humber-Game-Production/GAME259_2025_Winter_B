@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 "D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.cpp"
+=======
+"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.cpp"
+>>>>>>> main
 /I "."
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\UHT"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\CoreUObject\VerseVMBytecode"
@@ -13,10 +17,17 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt"
+<<<<<<< HEAD
 /Yc"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h"
 /Fp"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.pch"
 /Fo"D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.obj"
 /sourceDependencies "D:\Clara_Github\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.dep.json"
+=======
+/Yc"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h"
+/Fp"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.pch"
+/Fo"C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.obj"
+/sourceDependencies "C:\Users\mrmys\OneDrive\Documents\GitHub\GAME259_2025_Winter_B\BTeamProjectTilde\Intermediate\Build\Win64\x64\BTeamProjectTildeEditor\Development\CoreUObject\SharedPCH.CoreUObject.RTTI.Cpp20.h.dep.json"
+>>>>>>> main
 /Zc:inline
 /nologo
 /Oi
