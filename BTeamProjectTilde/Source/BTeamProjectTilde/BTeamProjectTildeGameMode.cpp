@@ -12,4 +12,8 @@ ABTeamProjectTildeGameMode::ABTeamProjectTildeGameMode()
 	{
 		DefaultPawnClass = PlayerPawnBPClass.Class;
 	}
+	static ConstructorHelpers::FClassFinder<APlayerController> PlayerControllerBPClass(TEXT("/Game/BTeamCONTENTfolder/Blueprints/Characters_BP/BP_PlayerController"));
+	if (PlayerControllerBPClass.Class != NULL) {
+		PlayerControllerClass = PlayerControllerBPClass.Class;
+	}
 }
