@@ -54,6 +54,7 @@ ABTeamProjectTildeCharacter::ABTeamProjectTildeCharacter()
 	// are set in the derived blueprint asset named ThirdPersonCharacter (to avoid direct content references in C++)
 }
 
+
 void ABTeamProjectTildeCharacter::BeginPlay()
 {
 	// Call the base class  
@@ -124,7 +125,17 @@ void ABTeamProjectTildeCharacter::Look(const FInputActionValue& Value)
 	if (Controller != nullptr)
 	{
 		// add yaw and pitch input to controller
-		AddControllerYawInput(LookAxisVector.X);
-		AddControllerPitchInput(LookAxisVector.Y);
+		if (checkLevel) {
+			AddControllerYawInput(LookAxisVector.X);
+			AddControllerPitchInput(LookAxisVector.Y);
+		}
+		MoveCameraEvent.Broadcast(LookAxisVector);
 	}
 }
+
+void ABTeamProjectTildeCharacter::RespawnPlayersDelegate()
+{
+	respawnPlayers.Broadcast();
+}
+
+
