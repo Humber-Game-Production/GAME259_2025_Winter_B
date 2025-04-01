@@ -8,7 +8,7 @@
 #include "BTeamProjectTildeCharacter.generated.h"
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FRespawnPlayers); // Delegate To Respawn Players
-
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FMoveCamera, FVector2D, Move);
 
 class USpringArmComponent;
 class UCameraComponent;
@@ -54,7 +54,13 @@ public:
 
 	UPROPERTY(BlueprintCallable, BlueprintAssignable)
 	FRespawnPlayers respawnPlayers;// Function To Respawn Players
+	
+	UPROPERTY(BlueprintCallable, BlueprintAssignable)
+	FMoveCamera MoveCameraEvent;
+
 protected:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool checkLevel = false;
 
 	/** Called for movement input */
 	void Move(const FInputActionValue& Value);
