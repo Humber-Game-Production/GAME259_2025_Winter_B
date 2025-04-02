@@ -125,8 +125,11 @@ void ABTeamProjectTildeCharacter::Look(const FInputActionValue& Value)
 	if (Controller != nullptr)
 	{
 		// add yaw and pitch input to controller
-		AddControllerYawInput(LookAxisVector.X);
-		AddControllerPitchInput(LookAxisVector.Y);
+		if (checkLevel) {
+			AddControllerYawInput(LookAxisVector.X);
+			AddControllerPitchInput(LookAxisVector.Y);
+		}
+		MoveCameraEvent.Broadcast(LookAxisVector);
 	}
 }
 
