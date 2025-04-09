@@ -52,7 +52,7 @@ void USCManager::IniScreenManager(TSubclassOf<UUserWidget> InWidgetBP, TSubclass
             if (SceneCapture) {
                 UTextureRenderTarget2D* target = NewObject<UTextureRenderTarget2D>(this);
                 SceneCapture->TextureTarget = target;
-                target->InitAutoFormat(1012, 1012);
+                target->InitAutoFormat(1280,720);
                 target->UpdateResource();
                 CameraTargetMap.Add(actor, target); // add it to the map;
 
@@ -95,7 +95,7 @@ void USCManager::IniScreenManager(TSubclassOf<UUserWidget> InWidgetBP, TSubclass
                 else {
                     target = NewObject<UTextureRenderTarget2D>(this);
                     SceneCapture->TextureTarget = target;
-                    target->InitAutoFormat(1012, 1012);
+                    target->InitAutoFormat(1280,720);
                     target->UpdateResource();
                     CameraTargetMap.Add(actor, target); // add it to the map;
                 }
